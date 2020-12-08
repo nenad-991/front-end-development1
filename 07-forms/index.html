@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Forms</title>
+</head>
+<body>
+    <form action="script.php" method="POST" enctype="multipart/form-data" name="demo_form" id="demo_form">
+        <label for="name">Name:</label>
+        <input type="text" id="name"> <br>
+
+<input type="radio" name="country" id="Serbia" value="Serbia" checked "checked">
+<label for="Serbia">Serbia</label>
+         
+<br>
+<input type="radio" name="country" id="Romania" value="Serbia">
+<label for="Romania">Romania</label>
+<br>
+<input type="checkbox" name="question" value="like" id="question">
+<label for="question">I like HTML</label>
+<br>
+<input type="number" name="quantity" min=1 max=7>
+<br>
+<input type="color" name="favcolor">
+<br>
+<input type="range" name="points" min=1 max=10>
+<br>
+<textarea name="description" id="description" cols="30" rows="10">prostor za opis</textarea>
+<br>
+<select name="country" id="country">
+    <option value="Serbia">Serbia</option>
+    <option value="Ukraine">Ukraine</option>
+    <option value="Poland">Poland</option>
+</select>
+<br>
+
+<fieldset>
+    <legend>Personal info</legend>
+
+<label for="name">Name</label><br>
+<input type="text" name="name" id="name"><br>
+
+<label for="Surname">Surname</label><br>
+<input type="text" name="surname" id="surname"><br>
+</fieldset>
+
+<fieldset>
+<legend>Contact</legend><br>
+<input type="text" name="e-mail" id="e-mail"><br>
+<label for="e-mail">e-mail</label><br>
+
+
+</fieldset>
+
+
+
+
+    </form>
+</body>
+</html>
